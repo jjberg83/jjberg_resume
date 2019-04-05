@@ -1,14 +1,41 @@
+/* COLOR PALETTE
+#F9F0ED - whitebrown
+#AD9977 - lightbrown
+#42352A - brown
+#516563 -coolgreen
+#5D7487 - bluegreen
+*/
+
 /* GLOBAL STYLES
 ---------------------------*/
 body {
-  background: lightblue;
+
 }
 
 /* HEADER AND FOOTER
 ---------------------------*/
+header, footer {
+  background: #42352A;
+  color: #AD9977;
+}
+a {
+  color: #5D7487;
+}
+a:hover {
+  text-decoration: none;
+}
+header h1, header h2 {
+  color: #F9F0ED;
+}
 
 /* WORK EXPERIENCE
 ---------------------------*/
+.work {
+  background: #AD9977;
+}
 
 /* EDUCATION
 ---------------------------*/
+.education {
+  background: #516563;
+}
