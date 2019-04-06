@@ -40,8 +40,13 @@ header, footer {
   background: #42352A;
   color: #AD9977;
 }
+/* header */
 header h1, header h2 {
   color: #F9F0ED;
+}
+/* footer */
+footer {
+  text-align: center;
 }
 
 /* WORK EXPERIENCE
