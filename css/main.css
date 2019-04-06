@@ -10,6 +10,7 @@
 ---------------------------*/
 body {
   font-family: 'Cabin', sans-serif;
+  margin: 0;
 }
 h1, h2 {
   font-family: 'Carter One', cursive;
@@ -19,6 +20,7 @@ h1 {
 }
 h2 {
   font-size: 35px;
+  margin-top: 0;
 }
 a {
   color: #5D7487;
@@ -29,6 +31,7 @@ a:hover {
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
+  padding: 40px;
 }
 
 /* HEADER AND FOOTER
