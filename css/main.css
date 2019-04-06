@@ -9,7 +9,22 @@
 /* GLOBAL STYLES
 ---------------------------*/
 body {
-
+  font-family: 'Cabin', sans-serif;
+}
+h1, h2 {
+  font-family: 'Carter One', cursive;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 35px;
+}
+a {
+  color: #5D7487;
+}
+a:hover {
+  text-decoration: none;
 }
 
 /* HEADER AND FOOTER
@@ -17,12 +32,6 @@ body {
 header, footer {
   background: #42352A;
   color: #AD9977;
-}
-a {
-  color: #5D7487;
-}
-a:hover {
-  text-decoration: none;
 }
 header h1, header h2 {
   color: #F9F0ED;
@@ -33,9 +42,15 @@ header h1, header h2 {
 .work {
   background: #AD9977;
 }
+.work h2 {
+  color: #42352A;
+}
 
 /* EDUCATION
 ---------------------------*/
 .education {
   background: #516563;
+}
+.education h2 {
+  color: #F9F0ED;
 }
