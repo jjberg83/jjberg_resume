@@ -26,6 +26,10 @@ a {
 a:hover {
   text-decoration: none;
 }
+.content-wrap {
+  width: 950px;
+  margin: 0 auto;
+}
 
 /* HEADER AND FOOTER
 ---------------------------*/
