@@ -32,6 +32,7 @@ a:hover {
   max-width: 950px;
   margin: 0 auto;
   padding: 40px;
+  overflow: auto;
 }
 
 /* HEADER AND FOOTER
@@ -43,9 +44,13 @@ header, footer {
 /* header */
 .portrait-img {
   width: 300px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
 }
 header h1, header h2 {
   color: #F9F0ED;
+  margin: 0;
 }
 /* footer */
 footer {
