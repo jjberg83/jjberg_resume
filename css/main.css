@@ -41,6 +41,9 @@ header, footer {
   color: #AD9977;
 }
 /* header */
+.portrait-img {
+  width: 300px;
+}
 header h1, header h2 {
   color: #F9F0ED;
 }
