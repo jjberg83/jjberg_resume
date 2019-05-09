@@ -55,6 +55,9 @@ a:hover {
   padding-left: 20px;
   min-height: 175px;
 }
+.uppercase {
+  text-transform: uppercase;
+}
 
 /* HEADER AND FOOTER
 ---------------------------*/
@@ -95,6 +98,9 @@ footer h2 {
 }
 h3 ~ p {
   margin: 0;
+}
+.work .col-wide p:first-of-type {
+  margin-top: 0;
 }
 
 /* EDUCATION
