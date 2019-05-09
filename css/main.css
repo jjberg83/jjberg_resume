@@ -47,13 +47,13 @@ a:hover {
 .col-narrow {
   width: 30%;
   float: left;
-  min-height: 175px;
+    min-height: 100px;
 }
 .col-wide {
   width: 70%;
   float: left;
   padding-left: 20px;
-  min-height: 175px;
+  min-height: 100px;
 }
 .uppercase {
   text-transform: uppercase;
@@ -99,8 +99,11 @@ footer h2 {
 h3 ~ p {
   margin: 0;
 }
-.work .col-wide p:first-of-type {
+.job-description p:first-of-type {
   margin-top: 0;
+}
+.job-description {
+  margin-bottom: 10px;
 }
 
 /* EDUCATION
