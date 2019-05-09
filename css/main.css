@@ -29,6 +29,9 @@ h2 {
   font-size: 35px;
   margin-top: 0;
 }
+h3 {
+  margin: 0;
+}
 a {
   color: #5D7487;
 }
@@ -89,6 +92,9 @@ footer h2 {
 }
 .work h2 {
   color: #42352A;
+}
+h3 ~ p {
+  margin: 0;
 }
 
 /* EDUCATION
