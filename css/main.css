@@ -15,6 +15,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+/* end of box model fix */
 body {
   font-family: 'Cabin', sans-serif;
   margin: 0;
@@ -28,6 +29,9 @@ h1 {
 h2 {
   font-size: 35px;
   margin-top: 0;
+}
+h3 {
+  margin: 0;
 }
 a {
   color: #5D7487;
@@ -44,13 +48,16 @@ a:hover {
 .col-narrow {
   width: 30%;
   float: left;
-  min-height: 175px;
+    min-height: 100px;
 }
 .col-wide {
   width: 70%;
   float: left;
   padding-left: 20px;
-  min-height: 175px;
+  min-height: 100px;
+}
+.uppercase {
+  text-transform: uppercase;
 }
 
 /* HEADER AND FOOTER
@@ -90,6 +97,15 @@ footer h2 {
 .work h2 {
   color: #42352A;
 }
+h3 ~ p {
+  margin: 0;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+.job-description {
+  margin-bottom: 10px;
+}
 
 /* EDUCATION
 ---------------------------*/
@@ -98,4 +114,7 @@ footer h2 {
 }
 .education h2 {
   color: #F9F0ED;
+}
+p + h3 {
+  margin-top: 10px;
 }
