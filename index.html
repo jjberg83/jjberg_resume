@@ -10,19 +10,25 @@
 <body>
     <!-- // Intro -->
     <header>
-        <div class="content-wrap">
-          <img class="portrait-img col-narrow" src="images/jjberg_portrait_cropped.jpg" alt="Jørund Jenssen Berg">
-          <div class="col-wide">
-            <h1>Jørund Jenssen Berg PushTest</h1>
-            <h2>Front-end webdesigner</h2>
-            <p>Educated graphic designer with a bachelor degree from Deakin University (Melbourne, Australia). The last few years I´ve been working in print production, assisting in the physical production of print products. The main bulk of the customer base has been high end design firms, banks, museums, airports and international oil companies. Now I´m looking for an opportunity to switch to the wonderful world of webdesign, and for the last few months I´ve been studying hard in my spare time to learn all about front-end technologies. </p>
-          </div><!-- col-wide -->
-        </div><!-- content-wrap -->
+      <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="content-wrap">
+        <img class="portrait-img col-narrow" src="images/jjberg_portrait_cropped.jpg" alt="Jørund Jenssen Berg">
+        <div class="col-wide">
+          <h1 id="about">Jørund Jenssen Berg</h1>
+          <h2>Front-end webdesigner</h2>
+          <p>Educated graphic designer with a bachelor degree from Deakin University (Melbourne, Australia). The last few years I´ve been working in print production, assisting in the physical production of print products. The main bulk of the customer base has been high end design firms, banks, museums, airports and international oil companies. Now I´m looking for an opportunity to switch to the wonderful world of webdesign, and for the last few months I´ve been studying hard in my spare time to learn all about front-end technologies. </p>
+        </div><!-- col-wide -->
+      </div><!-- content-wrap -->
     </header>
 
     <main>
         <!-- // Work Experience -->
-        <section class="work">
+        <section id="work" class="work">
             <div class="content-wrap">
               <h2>Work Experience</h2>
 
@@ -93,7 +99,7 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section id="education" class="education">
             <div class="content-wrap">
               <h2>Education</h2>
 
@@ -126,7 +132,7 @@
     </main>
 
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class="content-wrap">
           <h2>Let's Keep in Touch!</h2>
 
