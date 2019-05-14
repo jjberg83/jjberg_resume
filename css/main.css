@@ -59,6 +59,18 @@ a:hover {
 .uppercase {
   text-transform: uppercase;
 }
+.btn {
+  background: #516563;
+  color: #F9F0ED;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 
 /* HEADER AND FOOTER
 ---------------------------*/
@@ -69,6 +81,7 @@ header, footer {
 /* header */
 header {
   padding-top: 10px;
+  position: relative;
 }
 .portrait-img {
   border-radius: 50%;
