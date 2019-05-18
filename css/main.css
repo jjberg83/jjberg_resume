@@ -146,7 +146,9 @@ h3 ~ p {
 /* EDUCATION
 ---------------------------*/
 .education {
-  background: #516563;
+  background: linear-gradient(rgba(81, 101, 99, 0.85),rgba(81, 101, 99, 0.85)),
+              url(../images/kieren-andrews-195922-unsplash.jpg) fixed no-repeat;
+  background-size: cover;
 }
 .education h2 {
   color: #F9F0ED;
